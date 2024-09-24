@@ -1,6 +1,7 @@
 ## Save SMART HDD attribute history into a sqlite3 DB
+This program was written in order to more easily store and monitor certain SMART attributes (temperature, load cycle count, power cycle count and so on) over time. It was written mostly for mechanical drives, many attributes relevant to SSD or NVMe drives are not saved.
 
-### How to use
+### Usage
 
 Initialize DB:
 
