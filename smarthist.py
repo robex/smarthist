@@ -77,6 +77,9 @@ def main():
 
     con = sqlite3.connect(DB_FILE)
     for device in devices:
+        if device is None:
+            continue
+
         store_device_db(device, con)
         con.commit()
 
